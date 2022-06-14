@@ -9,16 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading){
+        
+        VStack(){
+            MapCustom()
+                .frame(height: 300)
             ImageCustom()
-            Text("Daniel")
-                .font(.title)
-            HStack {
-                Text("Mobile developer")
-                    .font(.subheadline)
-                Spacer()
-                Text("At some where")
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            VStack(alignment: .leading) {
+                Text("Daniel")
+                    .font(.title)
+                HStack {
+                    Text("Mobile developer")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("At some where")
+                }
             }
+            Divider()
+            VStack{
+                Text("Use this modifier to add a specified amount of padding to one or more edges of the view. Indicate the edges to pad by naming either a single value from Edge.Set, or by specifying an OptionSet that contains edge values")
+            }.padding([.top], 20)
+            
+            Spacer()
         }.padding()
     }
 }
