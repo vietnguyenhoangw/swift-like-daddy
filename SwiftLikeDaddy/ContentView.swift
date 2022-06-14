@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading){
+            ImageCustom()
             Text("Daniel")
                 .font(.title)
             HStack {

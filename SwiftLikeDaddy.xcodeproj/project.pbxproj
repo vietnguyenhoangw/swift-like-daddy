@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69A00C632858347900001AE1 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A00C622858347900001AE1 /* Image.swift */; };
 		69BABE9628582C3A0008844D /* SwiftLikeDaddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BABE9528582C3A0008844D /* SwiftLikeDaddyApp.swift */; };
 		69BABE9828582C3A0008844D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BABE9728582C3A0008844D /* ContentView.swift */; };
 		69BABE9A28582C3F0008844D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BABE9928582C3F0008844D /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69A00C622858347900001AE1 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		69BABE9228582C3A0008844D /* SwiftLikeDaddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLikeDaddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BABE9528582C3A0008844D /* SwiftLikeDaddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLikeDaddyApp.swift; sourceTree = "<group>"; };
 		69BABE9728582C3A0008844D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,9 +34,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69A00C612858346100001AE1 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				69A00C622858347900001AE1 /* Image.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
 		69BABE8928582C3A0008844D = {
 			isa = PBXGroup;
 			children = (
+				69A00C612858346100001AE1 /* Widgets */,
 				69BABE9428582C3A0008844D /* SwiftLikeDaddy */,
 				69BABE9328582C3A0008844D /* Products */,
 			);
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69BABE9828582C3A0008844D /* ContentView.swift in Sources */,
+				69A00C632858347900001AE1 /* Image.swift in Sources */,
 				69BABE9628582C3A0008844D /* SwiftLikeDaddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
