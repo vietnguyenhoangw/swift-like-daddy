@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ImageCustom: View {
+    var image: Image
+    
     var body: some View {
-        Image("kid")
+        image
             .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: 200, height: 200, alignment: .center)
@@ -23,6 +25,6 @@ struct ImageCustom: View {
 
 struct ImageCustom_Previews: PreviewProvider {
     static var previews: some View {
-        ImageCustom()
+        ImageCustom(image: Image("kid"))
     }
 }
